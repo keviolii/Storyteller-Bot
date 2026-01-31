@@ -1,0 +1,31 @@
+{
+  "name": "collaborative-storyteller-bot",
+  "version": "1.0.0",
+  "description": "AI-powered Discord bot for collaborative storytelling using Claude API",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "ai",
+    "storytelling",
+    "claude",
+    "anthropic"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
